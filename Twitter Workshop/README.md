@@ -3,10 +3,12 @@ The repository & documentation for the Twitter workshop by [Max Frischknecht](ht
 
 ## Prerequisites
 
-To access the [Twitter Api](https://developer.twitter.com/en) you need to setup 2 things:
+To access the [Twitter Api](https://developer.twitter.com/en) you need to setup 3 things:
 
 1. Create a Twitter Profile [here](https://twitter.com/i/flow/signup)
 2. Apply for a Twitter Developer Account [here](https://developer.twitter.com/en/apply-for-access). **This might take a while because it's revisited by an actual human.**
+3. Be shure that you have [Node.js](https://nodejs.org/en/) installed!
+
 
 ## Setup
 
@@ -16,4 +18,5 @@ To access the [Twitter Api](https://developer.twitter.com/en) you need to setup 
 
 * [Twitter Docs](https://developer.twitter.com/en/docs)
 * [Twitter Api Docs](https://developer.twitter.com/en/docs/twitter-api)
+* [NPM Twit Package](https://github.com/ttezel/twit#readme)
 
