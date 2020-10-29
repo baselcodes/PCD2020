@@ -22,4 +22,5 @@ To access the [Twitter Api](https://developer.twitter.com/en) you need to setup 
 * [Twitter Docs](https://developer.twitter.com/en/docs)
 * [Twitter Api Docs](https://developer.twitter.com/en/docs/twitter-api)
 * [NPM Twit Package](https://github.com/ttezel/twit#readme)
+* [What is Node.js? - Twitter Bot Tutorial, by the greatest Dan Shiffman](https://www.youtube.com/watch?v=RF5_MPSNAtU&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV)
 
