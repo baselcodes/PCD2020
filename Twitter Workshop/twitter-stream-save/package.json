@@ -1,0 +1,17 @@
+{
+  "name": "twitter-stream-save",
+  "version": "1.0.0",
+  "description": "Stream and save data from Twitter",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Frischknecht",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nedb": "^1.8.0",
+    "twit": "^2.2.11"
+  }
+}

@@ -12,6 +12,11 @@ let config = {
   strictSSL: true     // optional - requires SSL certificates to be valid.
 }
 
+// Initialize the local database
+const Datastore = require('nedb');
+const database = new Datastore('database.db');
+database.loadDatabase();
+
 // import twit library
 let Twit = require('twit');
 // Create a new instance and add your keys to it
@@ -39,39 +44,12 @@ let stream = T.stream('statuses/filter', trackTags)
 stream.on('tweet', streamEvent);
 
 // Callback function: get the tweet and make a json out of it
+// then save it to the database
 function streamEvent(data) {
-  const element = {};
 
-  element.id = data.id_str;
-  element.text = data.text;
-  element.user_name = data.user.name;
-  element.created_at = data.created_at;
-  // log the data
-  console.log(element);
-
-  // OPTIONAL: Influence the public opinion and repost the tweet ;)
-  // retweetData(element); 
+  // console.log(data);
+  const timestamp_max = Date.now();
+  data.timestamp = timestamp_max;
+  database.insert(data);
+  console.log("inserted " + data.user.screen_name + " into db 🔥");
 }
-
-// Get the id from the json and retweet the thing!
-function retweetData(data) {
-  // if you want to filter out the retweets use an if like:
-  // data.screen_name == 'guardian'
-
-  let tweetId = {
-    id: data.id
-  }
-  T.post('statuses/retweet/:id', tweetId)
-    .catch(function (err) {
-      console.log('Error yo!', err.stack)
-    })
-    .then(function (result) {
-      console.log("Dude, it was retweeted!");
-    });
-}
-
-
-
-
-
-
