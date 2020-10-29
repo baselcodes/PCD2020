@@ -7,7 +7,7 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "max frischknecht",
+  "author": "Max Frischknecht",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
