@@ -18,7 +18,7 @@ let Twit = require('twit');
 var T = new Twit(config);
 
 let tweetMessage = {
-  status: 'Tomorrow the basel.codes crew will organize the Processing Community Day 2020 online via https://basel.codes/2020. Check it put!'
+  status: 'Heyhey! This is the basel-codes-twitter-bot speaking to you! If you want to know how this works, tune in to our live stream. 👾'
 }
 
 T.post('statuses/update', tweetMessage, tweetedCallback);

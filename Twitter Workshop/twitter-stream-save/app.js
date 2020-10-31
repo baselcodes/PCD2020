@@ -25,7 +25,7 @@ var T = new Twit(config);
 
 // If you want to stream some hashtags
 let trackTags = {
-  track: '#election'
+  track: '#trump'
 }
 
 // If you want to stream users
