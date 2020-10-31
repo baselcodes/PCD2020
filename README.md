@@ -3,7 +3,8 @@ Repository for the Processing Community Day 2020 in Basel, including workshop ma
 
 ## Live Stream
 
-Due to the Covid pandemic the workshops will be streamed live over [https://basel.codes/2020/](https://basel.codes/2020/)
+Due to the Covid pandemic the workshops will be [streamed live](https://youtu.be/LjyGeYOcDWQ)
+Join the discussion or ask for support at our [Discord Server](https://discord.gg/STKTfDhKgy)
 
 ## Workshops
 
