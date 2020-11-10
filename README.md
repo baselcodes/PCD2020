@@ -13,7 +13,7 @@ Due to the Covid pandemic the workshops were [streamed live](https://www.youtube
 w/ [Ted Davis](https://github.com/ffd8) & [Mark Iandovka](https://github.com/miandovka)
 
 
-#### **Shaders**  
+#### **[Shaders](Shaders%20Workshop)**  
 - 13:00 – 15:00  
 w/ [Lena Frei](https://github.com/LenaF6) & [Alain Brusch](https://github.com/alainchristopher)
 
