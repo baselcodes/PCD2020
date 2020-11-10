@@ -2,14 +2,15 @@
 Workshop by Mark Iandovka + Ted Davis for the [basel.codes PCD2020](https://basel.codes/2020)
 
 ## Getting Started
-While you could easily get setup using a [blank p5.js project](https://github.com/processing/p5.js/releases/latest) or the [webeditor](https://editor.p5js.org/),  
+While you could get setup using a [blank p5.js project](https://github.com/processing/p5.js/releases/latest) or the [webeditor](https://editor.p5js.org/),  
 we'll be using our very own [P5LIVE](https://p5live.org) editor. 
 
 For the workshop, feel free to use [P5LIVE online](https://p5live.org) (runs best in Chrome or Firefox).  
 Eventually you should install it locally for running as an [offline server](https://github.com/ffd8/P5LIVE#offline-server) (no internet needed!).
 
-## Workshop TOC
-- *will eventually link to video segments*
+## Workshop Documentation
+- [Stream on YouTube](https://www.youtube.com/watch?v=0tX2PwCMgSo)
+- Drag and drop [P5L_FOLDER\_PCD2020-basel.codes.json](P5L_FOLDER_PCD2020-basel.codes.json) into your P5LIVE browser, to load and explore the sketches that we demonstrated during our workshop (sketches renamed for clarity).
 
 ## Resources
 Want to go further and learn more about coding with p5.js?! Here's a few links to get started:  
