@@ -20,7 +20,7 @@ var T = new Twit(config);
 
 // If you want to stream some hashtags
 let trackTags = {
-  track: '#election'
+  track: '#pcd2020'
 }
 
 // If you want to stream users
@@ -50,7 +50,7 @@ function streamEvent(data) {
   console.log(element);
 
   // OPTIONAL: Influence the public opinion and repost the tweet ;)
-  // retweetData(element); 
+  retweetData(element); 
 }
 
 // Get the id from the json and retweet the thing!
