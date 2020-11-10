@@ -1,5 +1,5 @@
 # PCD2020 – p5.js Basics + P5LIVE
-Workshop by Mark Iandovka + Ted Davis for the [basel.codes PCD2020](https://basel.codes/2020)
+Workshop by Mark Iandovka + Ted Davis for [basel.codes x PCD2020](https://basel.codes/2020)
 
 ## Getting Started
 While you could get setup using a [blank p5.js project](https://github.com/processing/p5.js/releases/latest) or the [webeditor](https://editor.p5js.org/),  
