@@ -18,7 +18,7 @@ let Twit = require('twit');
 var T = new Twit(config);
 
 let tweetMessage = {
-  status: 'Speaking from the internet universe to you!'
+  status: 'Heyhey! This is the basel-codes-twitter-bot speaking to you! If you want to know how this works, tune in to our live stream. 👾'
 }
 
 T.post('statuses/update', tweetMessage, tweetedCallback);

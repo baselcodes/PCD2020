@@ -25,7 +25,7 @@ var T = new Twit(config);
 
 // If you want to stream some hashtags
 let trackTags = {
-  track: '#halloween'
+  track: '#trump'
 }
 
 // If you want to stream users
@@ -38,7 +38,7 @@ let trackUsers = {
 
 // Setup a stream to continously recieve updates
 // add the variable you want to stream as second argument
-let stream = T.stream('statuses/filter', trackUsers)
+let stream = T.stream('statuses/filter', trackTags)
 
 // React on a tweet event
 stream.on('tweet', streamEvent);
