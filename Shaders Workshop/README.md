@@ -1,4 +1,4 @@
-# PCD2020 – p5.js Basics + P5LIVE
+# PCD2020 – p5.js Shaders
 Workshop by Lena Frei + Alain Brusch for the [basel.codes PCD2020](https://basel.codes/2020)
 
 ## Getting Started
