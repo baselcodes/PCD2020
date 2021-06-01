@@ -15,7 +15,8 @@ To access the [Twitter Api](https://developer.twitter.com/en) you need to setup 
 
 1. Clone the prepared scripts (e.g. twitter-boilerplate) to your local machine.
 2. Setup the script as it is described in the `README.md` of the script.
-3. Let's hack!
+3. Be shure that you update the dependencies to avoid security leaks.
+4. Let's hack!
 
 ## Resources
 
